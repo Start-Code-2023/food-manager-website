@@ -2,19 +2,22 @@ import ItemList from '@/components/itemList'
 import { demoItems } from '@/constants/demo_items'
 import Drawer from '@/components/drawer'
 
-export default function Home() {
+import NavBar from '@/components/nav'
+
+export default function FridgePage() {
 
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-white">
-        <h1 className="text-2xl font-bold">Food Manager</h1>
-        <h3>You have:</h3>
-
+    <>
+      <NavBar />
+      <main className="flex h-screen flex-col items-center p-24 pt-10 justify-between bg-white">
         <div>
           <ItemList items={demoItems} />
         </div>
 
         <Drawer />
-    </main>
+      </main>
+    </>
+
   )
 }
