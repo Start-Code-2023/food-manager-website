@@ -7,9 +7,6 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    colors:{
-      mainGreen: '#187A56'
-    }
   },
   plugins: [],
 }
