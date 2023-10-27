@@ -1,10 +1,10 @@
 {
-    "userId": "",
+    "userId": "123",
     "foodItems" : [
         {
-            "id":"",
-            "name": "",
-            "quantity" : ""
+            "id":"12",
+            "name": "Milk",
+            "quantity" : 2
 
         }
     ]
