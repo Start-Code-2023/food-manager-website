@@ -16,7 +16,7 @@ export default function ItemComponent({name, quantity}: Props) {
                         email@windster.com
                     </p>
                 </div>
-                <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                <div className="inline-flex items-center text-sm font-semibold text-gray-900 dark:text-white">
                     {quantity} unit(s). 
                 </div>
             </div>
