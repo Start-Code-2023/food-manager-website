@@ -5,7 +5,6 @@ import { demoItems } from '@/constants/demo_items'
 import Drawer from '@/components/drawer'
 
 import NavBar from '@/components/nav'
-import { LOCAL } from '@/constants/FEATURE_TOGGLE'
 import { useState, useEffect } from 'react'
 import { LOCAL_GET_FROM_USER_URL } from '@/constants/url'
 import Spinner from '@/components/spinner';
