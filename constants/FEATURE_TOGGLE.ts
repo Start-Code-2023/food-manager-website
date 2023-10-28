@@ -1,0 +1,1 @@
+export const LOCAL = window.location.href.includes('localhost'); // Fetch from go api based on url

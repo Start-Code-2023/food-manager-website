@@ -1,51 +1,51 @@
 export const demoItems: Item[] = [
     {
-      id: "1",
+      ID: "1",
       name: "Apples",
       quantity: 5,
     },
     {
-      id: "2",
+      ID: "2",
       name: "Bananas",
       quantity: 8,
     },
     {
-      id: "3",
+      ID: "3",
       name: "Milk",
       quantity: 2,
     },
     {
-      id: "4",
+      ID: "4",
       name: "Bread",
       quantity: 1,
     },
     {
-      id: "5",
+      ID: "5",
       name: "Eggs",
       quantity: 12,
     },
     {
-      id: "6",
+      ID: "6",
       name: "Pasta",
       quantity: 3,
     },
     {
-      id: "7",
+      ID: "7",
       name: "Rice",
       quantity: 4,
     },
     {
-      id: "8",
+      ID: "8",
       name: "Chicken",
       quantity: 2,
     },
     {
-      id: "9",
+      ID: "9",
       name: "Cheese",
       quantity: 1,
     },
     {
-      id: "10",
+      ID: "10",
       name: "Tomatoes",
       quantity: 6,
     }
