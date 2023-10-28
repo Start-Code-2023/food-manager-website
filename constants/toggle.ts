@@ -1,0 +1,1 @@
+export const IS_GPT_ON = false
