@@ -1,0 +1,1 @@
+export const LOCAL_GET_FROM_USER_URL = "http://localhost:8080/foodmanager/v1/get?userID=C8ODYfKBUkfWSpjOA8tt"

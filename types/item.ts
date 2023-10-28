@@ -1,5 +1,10 @@
 type Item = {
-    id: string,
+    ID: string,
     name: string,
     quantity: number,
+}
+
+type FoodItems = {
+    user_id : string,
+    food_items: Item[]
 }
