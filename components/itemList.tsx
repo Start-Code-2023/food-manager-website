@@ -15,7 +15,7 @@ export default function ItemList({items}: Props){
            <div className="flow-root">
                 <ul role="list" className="divide-y divide-gray-700">
                    {items.map((item)=>{
-                     return (<ItemComponent key={item.id} name={item.name} quantity={item.quantity} />)
+                     return (<ItemComponent key={item.ID} name={item.name} quantity={item.quantity} />)
                    })}
                 </ul>
            </div>
